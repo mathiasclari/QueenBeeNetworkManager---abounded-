@@ -1,0 +1,3 @@
+name: QueenBeeNetwork
+version: '${project.version}'
+main: net.acticraft.plugins.queenbeenetwork.QueenBeeNetwork
