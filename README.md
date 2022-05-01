@@ -42,7 +42,7 @@
 <p> ☐ /checkonline -> acti.bungee.admin</p></li>
 
 
-    </article>
+</article>
 <hr>
 <article align="center">
 <h3> DEVELOPMENT STATUS: </h3>
