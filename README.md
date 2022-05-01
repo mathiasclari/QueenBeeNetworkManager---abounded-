@@ -20,17 +20,29 @@
 <p> ☑ /hub</p>
 <p> ☑ /build</p>
 <p> ☑ /maintenace</p>
+<p> ☑ /checkonline</p>
 </article>
 <hr>
 <article align="center">
 <h3> TO DO LIST:</h3>
 <p> ☐ Fully Working Friend System</p></li>
 <p> ☐ Party System</p></li>
-<p> ☐ CPunishment System</p></li>
+<p> ☐ Punishment System</p></li>
 <p> ☐ MultiHub System</p></li>
 <p> ☐ StaffChat</p></li>
 
 </article>
+<hr>
+<article align="center">
+<h3> PERMISSIONS:</h3>
+
+<h4>STAFF PERMISSIONS:</h4>
+<p> ☐ /build -> acs.builder.buildsrv </p></li>
+<p> ☐ /maintenance -> acs.staff.superadmin </p></li>
+<p> ☐ /checkonline -> acti.bungee.admin</p></li>
+
+
+    </article>
 <hr>
 <article align="center">
 <h3> DEVELOPMENT STATUS: </h3>
