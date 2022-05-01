@@ -41,13 +41,34 @@
 <p> ☐ /maintenance -> acs.staff.superadmin </p></li>
 <p> ☐ /checkonline -> acti.bungee.admin</p></li>
 
-
 </article>
 <hr>
 <article align="center">
 <h3> DEVELOPMENT STATUS: </h3>
 <h5> █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ » 3%</h5>
 
+</article>
+<hr>
+<article align="center">
+<h4>MAVEN IMPLEMENTATION:</h4>
+
+    
+```xml
+        <repository>
+            <id>maven-releases</id>
+            <url>http://jernejtdo.si:8081/repository/maven-releases/</url>
+        </repository>
+```
+
+```xml
+        <dependency>
+            <groupId>net.acticraft.plugins</groupId>
+            <artifactId>QueenBeeNetwork</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+```
+
+    
 </article>
 <hr>
 
