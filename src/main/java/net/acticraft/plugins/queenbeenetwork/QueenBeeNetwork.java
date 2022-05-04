@@ -61,7 +61,7 @@ public final class QueenBeeNetwork extends Plugin {
         BungeeCord.getInstance().getPluginManager().registerCommand(this, new FriendCommand("friend"));
         BungeeCord.getInstance().getPluginManager().registerCommand(this, new FriendsCommand());
         LoadData();
-        maintenance = config.getBoolean("maintenance");
+        //maintenance = config.getBoolean("maintenance");
     }
 
     private void LoadData() {

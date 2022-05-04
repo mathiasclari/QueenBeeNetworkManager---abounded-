@@ -14,11 +14,11 @@ public class StaffChatEvent implements Listener {
 
     @EventHandler
     public void onChat(ChatEvent event) {
-        if (event.getMessage().startsWith("#")) {
+        if (event.getMessage().startsWith("##")) {
             if(event.getSender() instanceof ProxiedPlayer) {
                 ProxiedPlayer player = (ProxiedPlayer) event.getSender();
                 if(player.hasPermission("staffchat.use")) {
-                    TextComponent text = new TextComponent(ChatColor.of("#FFBF00")+""+ChatColor.BOLD+"SC " +ChatColor.of("#738291")+ ChatColor.BOLD +"» " +ChatColor.of("#F28C28") +player.getDisplayName()+ChatColor.of("#FAD5A5")+event.getMessage().replace("#", ""));
+                    TextComponent text = new TextComponent(ChatColor.GOLD+""+ChatColor.BOLD+"SC" +ChatColor.DARK_GRAY+""+ ChatColor.BOLD +" | " +ChatColor.RED +player.getDisplayName()+ChatColor.DARK_GRAY+""+ChatColor.BOLD+" » "+ChatColor.YELLOW+event.getMessage().replace("##", ""));
                     event.setCancelled(true);
                     for (ProxiedPlayer p : BungeeCord.getInstance().getPlayers()) {
                         if (p.hasPermission("staffchat.use")) {
