@@ -16,7 +16,7 @@ public class CheckOnlineCommand extends Command {
     public void execute(CommandSender sender, String[] args) {
         if ((sender instanceof ProxiedPlayer)) {
             ProxiedPlayer p = (ProxiedPlayer) sender;
-            if (p.hasPermission("acti_bungee_admin")) {
+            if (p.hasPermission("acti.bungee.admin")) {
                 p.sendMessage(ChatMessageType.ACTION_BAR, new ComponentBuilder("§8§l[§3§lACTICRAFT§8§l] §7§l» §3" + ProxyServer.getInstance().getOnlineCount()).create());
 
             }

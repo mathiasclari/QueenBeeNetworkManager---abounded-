@@ -35,4 +35,11 @@ public class BungeeSettings implements Listener {
         }
     }
 
+    @EventHandler
+    public void checkFabric(PostLoginEvent e){
+        if(e.getPlayer().isForgeUser()){
+
+        }
+    }
+
 }
