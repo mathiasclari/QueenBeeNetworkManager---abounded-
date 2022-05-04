@@ -4,3 +4,4 @@ mysql:
   databse: database
   username: username
   password: password
+maintenance: true

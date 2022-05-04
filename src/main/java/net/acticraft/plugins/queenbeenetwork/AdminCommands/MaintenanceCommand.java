@@ -19,6 +19,8 @@ public class MaintenanceCommand extends Command {
             ProxiedPlayer p = (ProxiedPlayer) sender;
             if (p.hasPermission("acs.staff.superadmin")) {
                 QueenBeeNetwork.maintenance = !QueenBeeNetwork.maintenance;
+                QueenBeeNetwork.getInstance().config.set("maintenance", QueenBeeNetwork.maintenance);
+                //QueenBeeNetwork.getInstance().saveDefaultConfig();
                 if (QueenBeeNetwork.maintenance == true) {
                     p.sendMessage(ChatMessageType.ACTION_BAR, new ComponentBuilder("§8§l[§c§lACTICRAFT§8§l] §7§l» §cMaintenance has been enabled").create());
                 }else {
