@@ -1,8 +1,8 @@
 
-<h1 align="center"> ACTICRAFT » QUEEN BEE NETWORK MANAGER</h1>
+<h1 align="center"> MCBEE » QUEEN BEE NETWORK MANAGER</h1>
 
 <p align="center">
-    <a href="https://discord.gg/acticraft">
+    <a href="https://discord.gg/mcbee">
         <img alt="Discord" src="https://img.shields.io/discord/912333006558097428?color=7289DA&label=Discord&logo=discord&logoColor=7289DA">
         <img alt="Last Updated" src="https://img.shields.io/github/last-commit/ActiCraft/QueenBeeNetworkManager">   
 </a>
@@ -10,7 +10,7 @@
 <hr>
 <article>
 <h3 align="center"> DESCRIPTION:</h3>
-<p align="center"> BungeeCord Plugin</p>
+<p align="center"> BungeeCord Plugin made for server McBee</p>
 
 
 </article>
@@ -21,6 +21,12 @@
 <p> ☑ /build</p>
 <p> ☑ /maintenace</p>
 <p> ☑ /checkonline</p>
+<p> ☑ /playtime</p>
+<p> ☑ /f</p>
+<p> ☑ /friends</p>
+<p> ☑ /f add </p>
+<p> ☑ /f remove </p>
+<p> ☑ StaffChat -> ##Hello staff chat</p></li>
 </article>
 <hr>
 <article align="center">
@@ -29,7 +35,7 @@
 <p> ☐ Party System</p></li>
 <p> ☐ Punishment System</p></li>
 <p> ☐ MultiHub System</p></li>
-<p> ☐ StaffChat</p></li>
+
 
 </article>
 <hr>
@@ -51,7 +57,7 @@
 <hr>
 <article align="center">
 <h4>MAVEN IMPLEMENTATION:</h4>
-
+<article align="left">
     
 ```xml
         <repository>
@@ -68,10 +74,10 @@
         </dependency>
 ```
 
-    
+  </article>  
 </article>
 <hr>
 
 <p align="center">
-    &copy;ActiCraft 2022
+    &copy;McBee 2022
 </p>
