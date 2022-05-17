@@ -1,5 +1,5 @@
 
-<h1 align="center"> MCBEE » QUEEN BEE NETWORK MANAGER</h1>
+<h1 align="center"> MCBEE » QUEEN BEE NETWORK MANAGER - abounded </h1>
 
 <p align="center">
     <a href="https://discord.gg/mcbee">
